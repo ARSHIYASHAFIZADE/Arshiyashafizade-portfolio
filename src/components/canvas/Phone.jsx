@@ -5,7 +5,7 @@ import * as THREE from "three";
 import CanvasLoader from "../Loader";
 
 const Model = () => {
-  const { scene } = useGLTF("./planet/scene.gltf");
+  const { scene } = useGLTF("./Phone/scene.gltf");
 
   scene.traverse((child) => {
     if (child.isMesh) {

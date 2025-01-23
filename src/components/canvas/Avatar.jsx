@@ -5,7 +5,7 @@ import CanvasLoader from "../Loader";
 import * as THREE from "three";
 
 const Computers = ({ isMobile }) => {
-  const { scene } = useGLTF("./desktop_pc/6756e17a1aa3af1c627b3bec.glb");
+  const { scene } = useGLTF("./Avatar/6756e17a1aa3af1c627b3bec.glb");
   const modelRef = useRef();
 
   // Check for model loading errors
